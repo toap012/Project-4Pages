@@ -14,7 +14,7 @@
 @import "basics/animations";
 
 // Pages
-// @import "./pages/robot-details";
+@import "./pages/_Wheather";
 // @import "./pages/robot-edit";
 // @import "./pages/about";
 
@@ -22,7 +22,7 @@
 // @import "./cmps/robot-list";
 // @import "./cmps/robot-preview";
 // @import "./cmps/robot-filter";
-// @import "./cmps/app-header";
+@import "./cmps/app-header";
 // @import "./cmps/nice-button";
 
 
@@ -44,6 +44,7 @@
 
 
 a.active {
-    color: rgb(84, 17, 147);
+    color: rgb(34, 34, 39);
     font-weight: 600;
+    text-decoration: underline;
 }
