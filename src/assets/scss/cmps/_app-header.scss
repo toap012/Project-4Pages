@@ -1,8 +1,31 @@
-.app-header{
+.app-header {
     height: $navHeight;
     background-color: $clr3;
-    nav{
+
+    nav {
         color: $clr5;
         width: 40vw;
+    }
+
+    .theme-btn {
+        position: absolute;
+        right: 10px;
+        background-color: rgb(85, 84, 84);
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+
+        .theme-ball {
+            margin-left: 0;
+            border-radius: 50%;
+            background-color: black;
+            width: 20px;
+            height: 20px;
+            transition: margin 500ms;
+            &.dark{
+                margin-left: 20px;
+            }
+        }
     }
 }

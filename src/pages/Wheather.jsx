@@ -37,10 +37,10 @@ export function Wheather() {
 
         <>
             <div className="box-container flex column align-center">
-                <h1>{getSeasonFromDate(Date.now).season}</h1>
-                <img src={getSeasonFromDate(Date.now).img} alt="Season-image" />
-                <h3>{formatDate()}</h3>
-                <h4>{currentTime}</h4>
+                <h1 className='season-title'>{getSeasonFromDate(Date.now).season}</h1>
+                <img className='season-img' src={getSeasonFromDate(Date.now).img} alt="Season-image" />
+                <h3 className='date'>{formatDate()}</h3>
+                <h4 className='time'>{currentTime}</h4>
 
             </div>
         </>
